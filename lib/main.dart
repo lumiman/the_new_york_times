@@ -78,11 +78,11 @@ class NewsLetter extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 25),
                   child: Column(
-                    children: const [
-                      SizedBox(
+                    children: [
+                      const SizedBox(
                         height: 30,
                       ),
-                      Text(
+                      const Text(
                         'PERU: "Approve initiative to strengthen the fight against bad business practices".',
                         style: TextStyle(
                             fontFamily: 'PoltawskiNowy',
@@ -90,10 +90,10 @@ class NewsLetter extends StatelessWidget {
                             fontSize: 26,
                             fontWeight: FontWeight.w600),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         height: 15,
                       ),
-                      Text(
+                      const Text(
                         '• The Consumer Defense Commission approved a proposal to strengthen leniency programs, a mechanism that allows the member of a business cartel to provide useful information to sanction infractions.',
                         style: TextStyle(
                             fontFamily: 'PoltawskiNowy',
@@ -101,10 +101,10 @@ class NewsLetter extends StatelessWidget {
                             fontSize: 16,
                             fontWeight: FontWeight.w200),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         height: 15,
                       ),
-                      Text(
+                      const Text(
                         '• Before the Agrarian Commission, the minister of the sector, Nelly Paredes, explains the execution of the resources for the reactivation program "Con Punche Perú Agro".',
                         style: TextStyle(
                             fontFamily: 'PoltawskiNowy',
@@ -112,10 +112,48 @@ class NewsLetter extends StatelessWidget {
                             fontSize: 16,
                             fontWeight: FontWeight.w200),
                       ),
-                      SizedBox(
-                        height: 30,
+                      const SizedBox(
+                        height: 15,
                       ),
-                      Text(
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          const Text(
+                            '2h ago',
+                            style: TextStyle(
+                              color: Color(0xFFBECCD8),
+                            ),
+                          ),
+                          Row(
+                            children: [
+                              IconButton(
+                                icon: Icon(
+                                  Icons.bookmark_border_sharp,
+                                  color: Colors.blue[200],
+                                ),
+                                onPressed: () {},
+                              ),
+                              IconButton(
+                                icon: Icon(
+                                  Icons.ios_share_sharp,
+                                  color: Colors.blue[200],
+                                ),
+                                onPressed: () {},
+                              ),
+                            ],
+                          )
+                        ],
+                      ),
+                      const SizedBox(
+                        child: Divider(
+                          thickness: 0.3,
+                          color: Colors.black38,
+                        ),
+                      ),
+                      const SizedBox(
+                        height: 10,
+                      ),
+                      const Text(
                         'Approve initiative to strengthen the fight against bad business practices',
                         style: TextStyle(
                             fontFamily: 'PoltawskiNowy',
@@ -123,10 +161,10 @@ class NewsLetter extends StatelessWidget {
                             fontSize: 26,
                             fontWeight: FontWeight.w600),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         height: 15,
                       ),
-                      Text(
+                      const Text(
                         '• The Consumer Defense Commission approved a proposal to strengthen leniency programs, a mechanism that allows the member of a business cartel to provide useful information to sanction infractions.',
                         style: TextStyle(
                             fontFamily: 'PoltawskiNowy',
@@ -134,16 +172,48 @@ class NewsLetter extends StatelessWidget {
                             fontSize: 16,
                             fontWeight: FontWeight.w200),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         height: 15,
                       ),
-                      Text(
+                      const Text(
                         '• The Culture Commission approved the bill that seeks to recognize June 23 as National Day of the Peruvian Theater, for the benefit of men and women who are dedicated to this activity.',
                         style: TextStyle(
                             fontFamily: 'PoltawskiNowy',
                             color: Colors.black54,
                             fontSize: 16,
                             fontWeight: FontWeight.w200),
+                      ),
+                      const SizedBox(
+                        height: 15,
+                      ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          const Text(
+                            '14h ago',
+                            style: TextStyle(
+                              color: Color(0xFFBECCD8),
+                            ),
+                          ),
+                          Row(
+                            children: [
+                              IconButton(
+                                icon: Icon(
+                                  Icons.bookmark_border_sharp,
+                                  color: Colors.blue[200],
+                                ),
+                                onPressed: () {},
+                              ),
+                              IconButton(
+                                icon: Icon(
+                                  Icons.ios_share_sharp,
+                                  color: Colors.blue[200],
+                                ),
+                                onPressed: () {},
+                              ),
+                            ],
+                          )
+                        ],
                       ),
                     ],
                   ),
