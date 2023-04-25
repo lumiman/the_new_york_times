@@ -97,7 +97,7 @@ class NewsLetter extends StatelessWidget {
                         '• The Consumer Defense Commission approved a proposal to strengthen leniency programs, a mechanism that allows the member of a business cartel to provide useful information to sanction infractions.',
                         style: TextStyle(
                             fontFamily: 'PoltawskiNowy',
-                            color: Colors.black87,
+                            color: Colors.black54,
                             fontSize: 16,
                             fontWeight: FontWeight.w200),
                       ),
@@ -108,7 +108,7 @@ class NewsLetter extends StatelessWidget {
                         '• Before the Agrarian Commission, the minister of the sector, Nelly Paredes, explains the execution of the resources for the reactivation program "Con Punche Perú Agro".',
                         style: TextStyle(
                             fontFamily: 'PoltawskiNowy',
-                            color: Colors.black87,
+                            color: Colors.black54,
                             fontSize: 16,
                             fontWeight: FontWeight.w200),
                       ),
@@ -130,7 +130,7 @@ class NewsLetter extends StatelessWidget {
                         '• The Consumer Defense Commission approved a proposal to strengthen leniency programs, a mechanism that allows the member of a business cartel to provide useful information to sanction infractions.',
                         style: TextStyle(
                             fontFamily: 'PoltawskiNowy',
-                            color: Colors.black87,
+                            color: Colors.black54,
                             fontSize: 16,
                             fontWeight: FontWeight.w200),
                       ),
@@ -141,7 +141,7 @@ class NewsLetter extends StatelessWidget {
                         '• The Culture Commission approved the bill that seeks to recognize June 23 as National Day of the Peruvian Theater, for the benefit of men and women who are dedicated to this activity.',
                         style: TextStyle(
                             fontFamily: 'PoltawskiNowy',
-                            color: Colors.black87,
+                            color: Colors.black54,
                             fontSize: 16,
                             fontWeight: FontWeight.w200),
                       ),
